@@ -1,0 +1,7 @@
+<% provide :title, t("static_pages.home") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= raw t(".into_html",
+    tut: link_to(t(".rails_tutorial"),"http://www.railstutorial.org/"))
+  %>
+</p>

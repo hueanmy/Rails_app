@@ -1,0 +1,9 @@
+<% provide :title, t("static_pages.about") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= raw t(".content",
+    r_tut: link_to(t(".tut"),"http://www.railstutorial.org/"),
+    r_book: link_to(t("book"),"http://www.railstutorial.org/book"),
+    r_series: link_to(t(".series"),"http://screencasts.railstutorial.org/"),
+    r_rails: link_to(t(".rails"), "http://rubyonrails.org/"))
+  %>
