@@ -1,0 +1,22 @@
+vn:
+  hello: "Xin chao"
+  layouts:
+    application:
+      english: "English"
+      vietnam: "Vietnam"
+  static_pages:
+    home:
+      title: "Trang chu"
+      into_html: "Day la trang chu %{tut} cho xay dung ung dung don gian."
+    help:
+      title: "Tro giup"
+      rails_help: "Loat bai tro giup Rails"
+      into_html: "Hay xem tro giup Rails tai %{r_help}
+        De xem tro giup tao mot ung dung co ban, xem tai %{r_book}."
+    about:
+      title: "Lien he"
+      tut: "Ruby on Rails Tutorial"
+      content: "Day la %{r_tut} mot %{r_book} va %{r_series} de hoc phat trien web %{r_rails}
+        Day la ung dung co ban cho loat bai."
+      series: "loat man hinh"
+      rails: "Ruby on Rails"

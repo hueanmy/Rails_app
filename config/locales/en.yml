@@ -21,3 +21,24 @@
 
 en:
   hello: "Hello world"
+  layouts:
+    application:
+      static_title: "Ruby on Rails Tutorial Sample App"
+      english: "English"
+      vietnam: "Vietnam"
+  static_pages:
+    home:
+      title: "Home"
+      into_html: "This is the home page for the %{tut} sample application."
+    help:
+      title: "Help"
+      rails_help: "Rails Tutorial help section "
+      into_html: "Get help on the Ruby on Rails Tutorial at the %{r_help}
+        To get help on this sample app, see the %{r_book}. "
+    about:
+      title: "About"
+      tut: "Ruby on Rails Tutorial"
+      content: "The %{r_tut} is a %{r_book} and %{r_series} to teach web development with %{r_rails}
+        This is the sample application for the tutorial."
+      series: "screencast series"
+      rails: "Ruby on Rails"
