@@ -1,0 +1,7 @@
+<%= provide :title, t("static_pages.contact") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= raw t ".content",
+    tut: link_to(t(".contact-rails"), "http://www.railstutorial.org/contact")
+  %>
+</p>
