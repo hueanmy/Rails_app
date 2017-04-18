@@ -1,0 +1,15 @@
+<footer>
+  <small>
+    <%= raw t(".content",
+      tut1: link_to(t(".r_tut"), "http://www.railstutorial.org/"),
+      tut2: link_to(t(".mich"), "http://www.michaelhartl.com/"))
+    %>
+    <nav>
+      <ul>
+        <li><%= link_to t(".about"), about_path %></li>
+        <li><%= link_to t(".contact"), contact_path %></li>
+        <li><%= link_to t(".news"), "http://news.railstutorial.org/" %></li>
+      </ul>
+    </nav>
+  </small>
+</footer>
