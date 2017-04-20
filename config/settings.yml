@@ -1,0 +1,8 @@
+validates:
+  name:
+    length: 50
+  email:
+    length: 255
+    case_sensitive: false
+  password:
+    length: 6
