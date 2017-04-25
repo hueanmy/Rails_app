@@ -63,7 +63,14 @@ en:
       .contact-rails: "contact page"
       content: "Contact the Ruby on Rails Tutorial about the sample app at
         the %{tut}."
-  user:
+  users:
     new:
       title: "Sign up"
       content: "This will be a signup page for new users."
+      create_account: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+  shared:
+    error_messages:
+      not_found_user: "Not found user"
+      contains: "The form contains following errors"
