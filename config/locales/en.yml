@@ -39,6 +39,12 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      users: "Users"
+      link_acount: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Logout"
+
   static_pages:
     home:
       title: "Home"
@@ -66,7 +72,6 @@ en:
   users:
     new:
       title: "Sign up"
-      content: "This will be a signup page for new users."
       create_account: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
@@ -74,3 +79,11 @@ en:
     error_messages:
       not_found_user: "Not found user"
       contains: "The form contains following errors"
+  sessions:
+    new:
+      title: "Log in"
+      login: "Log in"
+      sign_up: "Sign up now!"
+      new_user: "New user"
+      errors: "Invalid email/password combination"
+      success: "Sucess"
