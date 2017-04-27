@@ -87,3 +87,4 @@ en:
       new_user: "New user"
       errors: "Invalid email/password combination"
       success: "Sucess"
+      remember: "Remember me on this computer"
