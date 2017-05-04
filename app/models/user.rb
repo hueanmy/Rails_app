@@ -27,6 +27,10 @@ class User < ApplicationRecord
     BCrypt::Password.new(remember_digest).is_password? remember_token
   end
 
+  def current_user? user
+    self == user
+  end
+
   def forget
     update_attributes remember_digest: nil
   end

@@ -4,11 +4,11 @@
 #
 # To use the locales, use `I18n.t`:
 #
-#     I18n.t 'hello'
+#     I18n.t "hello"
 #
 # In views, this is aliased to just `t`:
 #
-#     <%= t('hello') %>
+#     <%= t("hello") %>
 #
 # To use a different locale, set it with `I18n.locale`:
 #
@@ -35,6 +35,7 @@ en:
       contact: "Contact"
       news: "News"
     header:
+      users: "Users"
       sam: "Sample app"
       home: "Home"
       help: "Help"
@@ -44,7 +45,6 @@ en:
       profile: "Profile"
       setting: "Settings"
       logout: "Logout"
-
   static_pages:
     home:
       title: "Home"
@@ -70,11 +70,28 @@ en:
       content: "Contact the Ruby on Rails Tutorial about the sample app at
         the %{tut}."
   users:
+    destroy:
+      delete: "User deleted"
+    index:
+      index: "All users"
+      all_users: "All users"
     new:
       title: "Sign up"
+      create: "Create my account"
       create_account: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
+    edit:
+      title: "Edit Users"
+      update: "Update your profile"
+      save: "Save changes"
+      confirm : "Confirmation"
+      save_changes: "Save changes"
+      change: "change"
+    update:
+      updated : "Profile updated"
+    logged_in_user:
+      please: "Please log in."
   shared:
     error_messages:
       not_found_user: "Not found user"
