@@ -9,7 +9,6 @@ class SessionsController < ApplicationController
       params[:session][:remember_me] == "1" ? remember(user) : forget(user)
       redirect_back_or user
       flash[:success] = t "sessions.new.success"
-      redirect_to user
     else
       flash.now[:danger] = t "sessions.new.errors"
       render :new
