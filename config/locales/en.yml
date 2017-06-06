@@ -4,6 +4,14 @@ en:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
+    page:
+      index:
+        cofirm: "you sure?"
+      home:
+        welcome: "Welcome to the Sample App"
+        content: "This is the home page for the"
+      info:
+        profile: "view my profile"
     application:
       english: "English"
       vietnam: "Vietnam"
@@ -120,3 +128,11 @@ en:
     create:
       info: "Email sent with password reset instructions"
       danger: "Email address not found"
+  micropost.login: "Please log in."
+  micropost.created: "Micropost created!"
+  micropost.deleted: "Micropost deleted!"
+  micropost.picture:  "should be less than 5MB"
+  micropost.btnPost: "Post"
+  micropost.create:  "Compose new micropost..."
+  micropost.micropost: "Microposts "
+  micropost.feed: "Micropost Feed"
