@@ -6,5 +6,7 @@ validates:
     case_sensitive: false
   password:
     length: 6
+  content:
+    length: 140
 gravatar:
   size: 80
