@@ -10,3 +10,10 @@ User.create!(name: "mai", email: "ltmai93@gmail.com",
     password_confirmation: password, activated: true,
     activated_at: Time.zone.now)
 end
+
+users = User.all
+user = users.first
+following = users[2..50]
+followers = users[3..40]
+following.each{|followed| user.follow(followed)}
+followers.each{|follower| follower.follow(user)}

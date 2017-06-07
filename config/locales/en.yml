@@ -136,3 +136,7 @@ en:
   micropost.create:  "Compose new micropost..."
   micropost.micropost: "Microposts "
   micropost.feed: "Micropost Feed"
+  follow:
+    btnFollow: "Follow"
+    btnUnfollow: "Unfollow"
+    view_profile: "view my profile"
